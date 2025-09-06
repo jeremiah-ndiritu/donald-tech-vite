@@ -1,6 +1,6 @@
 let advertsSection = document.getElementById("adverts-section");
 
-let backendURL = "http://localhost:8084";
+let backendURL = "https://donald-tech-express.onrender.com";
 
 fetch(`${backendURL}/api/adverts`)
   .then((res) => res.json())

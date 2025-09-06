@@ -1,7 +1,7 @@
 let productsContainer = document.getElementById("products-container");
 
 let s = "autocad";
-let backendURL = "http://localhost:8084"; // "https://donald-tech-express.onrender.com"
+let backendURL = "https://donald-tech-express.onrender.com"; //"http://localhost:8084"
 fetch(`${backendURL}/api/products/${s}`)
   .then((res) => res.json())
   .then((data) => {
