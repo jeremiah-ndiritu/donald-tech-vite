@@ -4,3 +4,27 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+  background: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+}
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .advert-div {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+  .advert-pic {
+    width: 100%;
+    height: auto;
+  }
+}

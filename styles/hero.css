@@ -32,4 +32,37 @@
   align-items: center;
   flex-grow: 1;
   border: 1px solid #ccc;
+
+  div {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo-container {
+    flex-direction: column-reverse;
+    margin: 20px 0 0 0;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+  }
+  .description {
+    margin: 0 0 20px 0;
+    max-width: 100%;
+    text-align: center;
+  }
+  #hero-img {
+    width: 100%;
+    height: auto;
+  }
 }
