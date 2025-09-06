@@ -1,0 +1,35 @@
+#brief-desc {
+  font: bold 18px "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.hero {
+  background: skyblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  flex-grow: 0;
+  max-width: 600px;
+  margin-right: 20px;
+  text-align: left;
+  font-size: 18px;
+}
+
+#hero-img {
+  width: 200px;
+  height: 100%;
+  border-radius: 20px;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: stretch;
+}
+
+.photo-container {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  border: 1px solid #ccc;
+}

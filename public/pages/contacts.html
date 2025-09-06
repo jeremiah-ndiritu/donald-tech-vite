@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+  </head>
+  <style>
+    /* Reset some default browser styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Body styles */
+    body {
+      background: lightblue;
+      color: #333;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    /* Main heading */
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #1e3a8a; /* deep blue */
+    }
+
+    /* Contact containers */
+    div {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 1rem auto;
+      max-width: 500px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    div:hover {
+      transform: translateY(-3px);
+    }
+
+    /* Section headings */
+    h3 {
+      margin-bottom: 1rem;
+      color: #2563eb; /* brighter blue */
+      font-size: 1.3rem;
+    }
+
+    /* Paragraphs */
+    p {
+      margin: 0.3rem 0;
+      font-size: 1rem;
+    }
+
+    /* Link back home */
+    #bkhml {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.6rem 1.2rem;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s ease-in-out;
+      &:hover {
+        background: #1e40af; /* darker blue */
+      }
+    }
+
+    /* Responsive tweak */
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      div {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+  <body>
+    <h1>Our Contacts</h1>
+    <div>
+      <h3>Contact the Head</h3>
+      <p>Mr. Donald Simiyu</p>
+      <p>
+        Email: <a href="mailto:rsimiyu175@gmail.com">rsimiyu175@gmail.com</a>
+      </p>
+      <p>Phone: <a href="tel:+254769949311">+254 769 949 311</a></p>
+      <p>Address: Kirinyaga, Kenya</p>
+    </div>
+    <div>
+      <h3>Contact the assistant</h3>
+      <p>Mr. Jeremiah Ndiritu</p>
+      <p>
+        Email:
+        <a href="mailto:ndiritujeremiah24@gmail.com">
+          ndiritujeremiah24@gmail.com</a
+        >
+      </p>
+      <p>Phone : <a href="tel:+254716496026">+254 716 496 026</a></p>
+      <p>Address: Kirinyaga, Kenya</p>
+    </div>
+    <a id="bkhml" href="../../index.html">Back to Home</a>
+  </body>
+</html>
