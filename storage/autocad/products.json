@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "3D Modeling",
+    "description": "Creating detailed 3D models for various applications.",
+    "image": "/images/autocad car.jpg"
+  },
+  {
+    "id": 2,
+    "name": "2D Drafting",
+    "description": "Producing precise 2D drawings and blueprints.",
+    "image": "/images/bridge 3d.jpg"
+  }
+]

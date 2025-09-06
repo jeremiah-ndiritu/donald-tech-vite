@@ -21,7 +21,13 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#" id="services-link">Services</a></li>
+          <li>
+            <a href="#" id="services-link">Services</a>
+            <div id="services-dropdown">
+              <a href="./autocad.html">AutoCAD Services</a>
+              <a href="./webdev.html">Web Development</a>
+            </div>
+          </li>
           <li>
             <a href="./about.html" target="_blank">About us</a>
           </li>
@@ -49,44 +55,8 @@
       </div>
     </section>
 
-    <section class="adverts-section">
-      <div class="advert-div">
-        <img class="advert-pic" src="./images/autocad car.jpg" alt="AutoCAD" />
-        <div class="advert-desc">
-          <h3>AutoCAD 2D</h3>
-          <p>
-            Master the art of precision with our AutoCAD 2D services. From
-            technical drawings to architectural plans, we deliver high-quality
-            2D designs tailored to your needs.
-          </p>
-        </div>
-      </div>
-      <div class="advert-div desc-then-pic">
-        <img class="advert-pic" src="./images/bridge 3d.jpg" alt="3D Car" />
-        <div class="advert-desc">
-          <h3>AutoCAD 3D</h3>
-          <p>
-            Transform your ideas into reality with our AutoCAD 3D services.
-            Whether it's architectural designs or mechanical parts, we create
-            detailed and accurate 3D models that meet your specifications.
-          </p>
-        </div>
-      </div>
-      <div class="advert-div">
-        <img
-          class="advert-pic"
-          src="./images/web screenshot.jpeg"
-          alt="Our website"
-        />
-        <div class="advert-desc">
-          <h3>Web Development</h3>
-          <p>
-            Build your online presence with our expert web development services.
-            From sleek designs to robust functionality, we create websites that
-            captivate and convert.
-          </p>
-        </div>
-      </div>
-    </section>
+    <section class="adverts-section" id="adverts-section"></section>
+
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
