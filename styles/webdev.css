@@ -1,0 +1,93 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #0056b3;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 2rem;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+#our-services-h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#cont-sec {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: #0056b3;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #333;
+  color: white;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
