@@ -1,0 +1,9 @@
+Light Gold: #FFD700
+
+Medium Gold: #DAA520
+
+Deep Gold/Bronze: #B8860B
+
+Deep Black: #000000
+
+Charcoal Gray: #1C1C1C

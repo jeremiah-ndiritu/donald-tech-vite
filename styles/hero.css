@@ -3,7 +3,8 @@
   font-style: italic;
 }
 .hero {
-  background: skyblue;
+  background: #1c1c1c;
+  color: #fff;
   display: flex;
   justify-content: space-between;
 }
@@ -27,6 +28,7 @@
 
 .photo-container {
   background: lightblue;
+  color: #1c1c1c;
   display: flex;
   justify-content: center;
   align-items: center;
