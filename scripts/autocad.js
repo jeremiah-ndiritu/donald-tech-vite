@@ -10,7 +10,7 @@ fetch(`${backendURL}/api/products/${s}`)
 
       div.innerHTML = `
         <h3>${p.name}</h3>
-        <img src="./images/${p.image}" />
+        <img src="${p.image}" alt="${p.name}" />
         <p>${p.description}</p>
         `;
       productsContainer.appendChild(div);

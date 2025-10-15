@@ -10,6 +10,29 @@ body {
   line-height: 1.6;
   max-width: 100vw;
 }
+#install-banner {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0078d7;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+#install-btn {
+  margin-left: 10px;
+  background: white;
+  color: #0078d7;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 @media (max-width: 768px) {
   .hero {
